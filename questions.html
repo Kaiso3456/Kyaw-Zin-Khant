@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="my">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080f20">
+    <title>Practice Test - G12 Biology</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="questions.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="logo" href="index.html">
+            <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 5 L93 35 L77 88 H23 L7 35 Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="5"
+              stroke-linejoin="round"/>
+
+        <text x="50" y="57"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              fill="currentColor"
+              font-size="25"
+              font-weight="bold"
+              font-family="Arial, sans-serif">MCF</text>
+    </svg>
+
+
+            <span class="logo-text">MCF <small>Grade 12 Biology</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="index.html" data-page="index.html">⌂ Home</a>
+            <a href="lesson.html" data-page="lesson.html">📘 Lesson</a>
+            <a href="questions.html" data-page="questions.html">✎ Questions</a>
+            <a href="answer.html" data-page="answer.html">✓ Answer</a>
+            <a href="letters.html" data-page="letters.html">✉ Letter</a>
+            <a href="contacts.html" data-page="contacts.html">☎ Contact</a>
+
+            <div class="dropdown">
+                <button class="drop-btn" id="resourceBtn" aria-expanded="false">☷ Resources ▾</button>
+                <div class="dropdown-menu" id="resourceMenu">
+                    <div class="menu-column">
+                        <h3>STUDY</h3>
+                        <a href="purpose.html">Project purpose</a>
+                        <a href="lesson.html">Biology lessons</a>
+                    </div>
+                    <div class="menu-column">
+                        <h3>PRACTICE</h3>
+                        <a href="questions.html">Practice questions</a>
+                        <a href="answer.html">Answer guide</a>
+                    </div>
+                    <div class="menu-column">
+                        <h3>PROJECT</h3>
+                        <a href="sources.html">Videos & Photos</a>
+                        <a href="contacts.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <section class="hero">
+            <h1>Practice Test — 100 Marks</h1>
+            <p>Sections 3.1–3.3 | Transpiration only</p>
+        </section>
+
+        <section class="panel">
+            <h2>Section A — True or False (20 marks)</h2>
+            <div id="tf"></div>
+        </section>
+
+        <section class="panel">
+            <h2>Section B — Multiple Choice (25 marks)</h2>
+            <div id="mcq"></div>
+        </section>
+
+        <section class="panel">
+            <h2>Section C — Fill in the Blanks (25 marks)</h2>
+            <div id="fill"></div>
+        </section>
+
+        <section class="panel">
+            <h2>Section D — Structured Questions (20 marks)</h2>
+
+            <p>Q1 (10 marks): Describe the structure and functions of xylem and phloem.</p>
+            <textarea id="long1" placeholder="Write your answer"></textarea>
+
+            <p>Q2 (10 marks): Explain how water moves from soil through roots and xylem to leaves.</p>
+            <textarea id="long2" placeholder="Write your answer"></textarea>
+        </section>
+
+        <section class="panel">
+            <h2>Section E — Diagram (10 marks)</h2>
+
+            <p>Provide labels and caption to the diagram and explain apoplastic and symplastic pathways.</p>
+
+            <img class="diagram" src="images/images.jpg" alt="Root transport pathway diagram">
+
+            <textarea id="diagramNotes" placeholder="Write your labels and explanation"></textarea>
+        </section>
+
+        <div class="panel">
+            <button class="btn" id="checkAnswers" type="button">Check Answers</button>
+            <button class="btn" id="clearAnswers" type="button">Clear Answers</button>
+
+            <h2 id="score" class="score-panel" aria-live="polite"></h2>
+
+            <p>Objective: 70 marks. Structured answers: 20 marks. Diagram: 10 marks.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>G12 Biology Project | National ICT Award 2026</p>
+    </footer>
+    <script src="index.js" defer></script>
+    <script src="questions.js" defer></script>
+</body>
+
+</html>

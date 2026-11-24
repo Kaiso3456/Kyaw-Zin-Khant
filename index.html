@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080f20">
+    <title>G12 Biology Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="logo" href="index.html">
+            <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 5 L93 35 L77 88 H23 L7 35 Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="5"
+              stroke-linejoin="round"/>
+
+        <text x="50" y="57"
+              text-anchor="middle"
+              dominant-baseline="middle"
+              fill="currentColor"
+              font-size="25"
+              font-weight="bold"
+              font-family="Arial, sans-serif">MCF</text>
+    </svg>
+
+
+            <span class="logo-text">MCF <small>Grade 12 Biology</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="index.html" data-page="index.html">⌂ Home</a>
+            <a href="lesson.html" data-page="lesson.html">📘 Lesson</a>
+            <a href="questions.html" data-page="questions.html">✎ Questions</a>
+            <a href="answer.html" data-page="answer.html">✓ Answer</a>
+            <a href="letters.html" data-page="letters.html">✉ Letter</a>
+            <a href="contacts.html" data-page="contacts.html">☎ Contact</a>
+
+            <div class="dropdown">
+                <button class="drop-btn" id="resourceBtn" aria-expanded="false">
+                ☷ Resources ▾
+            </button>
+
+                <div class="dropdown-menu" id="resourceMenu">
+                    <div class="menu-column">
+                        <h3>STUDY</h3>
+                        <a href="purpose.html">Project purpose</a>
+                        <a href="lesson.html">Biology lessons</a>
+                    </div>
+
+                    <div class="menu-column">
+                        <h3>PRACTICE</h3>
+                        <a href="questions.html">Practice questions</a>
+                        <a href="answer.html">Answer guide</a>
+                    </div>
+
+                    <div class="menu-column">
+                        <h3>PROJECT</h3>
+                        <a href="sources.html">Videos & Photos</a>
+                        <a href="contacts.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content">
+
+
+        <section class="hero hero-modern">
+
+            <div class="hero-content">
+
+
+                <h1>G12 Biology Study Website</h1>
+
+                <p>Transport in Plants — Sections 3.1 to 3.3</p>
+
+                <p>
+                    You can study lessons, diagrams, questions, and answers all in one place.
+                </p>
+
+                <a href="lesson.html" class="hero-btn">
+            Explore Lessons →
+        </a>
+            </div>
+
+            <div class="hero-visual" id="plantAnimation">
+
+                <div class="plant-glow"></div>
+
+                <svg class="plant-svg" viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
+
+            <!-- Shadow -->
+            <ellipse cx="200" cy="410" rx="105" ry="17"
+                     fill="#000" opacity=".12"/>
+
+            <!-- Pot -->
+            <path d="M125 315 L275 315 L250 405
+                     Q200 430 150 405 Z"
+                  fill="#b76e42"/>
+
+            <ellipse cx="200" cy="315" rx="75" ry="17"
+                     fill="#d99a64"/>
+
+            <path d="M145 340 L255 340"
+                  stroke="#e5aa75" stroke-width="5"
+                  opacity=".5"/>
+
+            <!-- Main Stem -->
+            <path class="plant-stem"
+                  d="M200 320 C195 250 210 190 200 95"
+                  fill="none"
+                  stroke="#268b50"
+                  stroke-width="9"
+                  stroke-linecap="round"/>
+
+            <!-- Left Leaves -->
+            <path class="leaf leaf-left"
+                  d="M199 245 C135 235 95 185 110 155
+                     C160 150 200 195 199 245Z"
+                  fill="#42b96d"/>
+
+            <path d="M195 235 Q155 195 118 165"
+                  fill="none" stroke="#d0f5d9"
+                  stroke-width="3"/>
+
+            <path class="leaf leaf-left leaf-small"
+                  d="M201 180 C145 170 130 120 150 95
+                     C190 105 215 145 201 180Z"
+                  fill="#269b58"/>
+
+            <path d="M200 170 Q175 130 153 105"
+                  fill="none" stroke="#c9f4d4"
+                  stroke-width="3"/>
+
+            <!-- Right Leaves -->
+            <path class="leaf leaf-right"
+                  d="M202 270 C265 260 305 215 290 185
+                     C240 180 200 220 202 270Z"
+                  fill="#239b58"/>
+
+            <path d="M205 260 Q245 220 282 195"
+                  fill="none" stroke="#c9f4d4"
+                  stroke-width="3"/>
+
+            <path class="leaf leaf-right leaf-small"
+                  d="M200 205 C255 195 270 145 250 120
+                     C210 130 185 170 200 205Z"
+                  fill="#53c978"/>
+
+            <path d="M205 195 Q230 155 247 130"
+                  fill="none" stroke="#d0f5d9"
+                  stroke-width="3"/>
+
+            <!-- Top Leaf -->
+            <path class="leaf leaf-top"
+                  d="M200 115 C165 80 175 35 200 20
+                     C230 45 235 85 200 115Z"
+                  fill="#35ae64"/>
+
+            <path d="M200 105 L200 35"
+                  stroke="#d0f5d9" stroke-width="3"
+                  fill="none"/>
+
+        </svg>
+
+                <div class="plant-caption">GROW • LEARN • DISCOVER</div>
+
+            </div>
+
+        </section>
+
+
+        <section class="cards">
+
+            <a class="card" href="lesson.html">
+                <h2>📘 Lesson</h2>
+                <p>Lessons and Diagrams</p>
+            </a>
+
+            <a class="card" href="questions.html">
+                <h2>📝 Questions</h2>
+                <p>Practice for 100 Marks</p>
+            </a>
+
+            <a class="card" href="answer.html">
+                <h2>✅ Answer</h2>
+                <p>Check Questions and Answers</p>
+            </a>
+
+            <a class="card" href="letters.html">
+                <h2>✉️ Letter</h2>
+                <p>Appreciation Letter and Thank-you Letter</p>
+            </a>
+
+            <a class="card" href="contacts.html">
+                <h2>☎️ Contact</h2>
+                <p>Contact Information</p>
+            </a>
+
+            <a class="card" href="sources.html">
+                <h2>🎬 Sources</h2>
+                <p>Videos & Photos</p>
+            </a>
+
+            <a class="card" href="purpose.html">
+                <h2>◎ Project Purpose</h2>
+                <p>Project information</p>
+            </a>
+
+        </section>
+
+        <p class="notice">Scope: Sections 3.1–3.3 Transpiration only.</p>
+
+    </main>
+
+    <footer>
+        <p>G12 Biology Project | National ICT Award 2026</p>
+    </footer>
+
+    <script src="index.js" defer></script>
+</body>
+
+</html>
